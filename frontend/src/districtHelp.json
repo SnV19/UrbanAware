@@ -1,0 +1,178 @@
+{"Central Delhi": {
+"hospital": {
+"name": "Sir Ganga Ram Hospital",
+"address": "Rajinder Nagar, New Delhi, Delhi 110060",
+"phone": "+91-11-42254000",
+"latitude": 28.639808 ,  
+"longitude": 77.188655   
+},
+"police_station": {
+"name": "Prasad Nagar Police Station",
+"address": "Prasad Nagar, Central Delhi, Delhi 110005",
+"phone": "+91-11-23869291",
+"latitude": 28.64787,  
+"longitude": 77.18071  
+}
+},
+
+"East Delhi": {
+    "hospital": {
+      "name": "LBS Hospital",
+      "address": "Near Mayur Vihar Phase 2 Metro Station, Indra Camp, Khichripur, Mayur Vihar Phase 2, Delhi 110091",
+      "phone": "+91-11-22794444",
+      "latitude": 28.6283,
+      "longitude": 77.2843
+    },
+    "police_station": {
+      "name": "Krishna Nagar Police Station",
+      "address": "Near Geeta Colony, Krishna Nagar, Delhi 110051",
+      "phone": "+91-11-22232100",
+      "latitude": 28.649849,
+      "longitude": 77.283484
+    }
+  },
+  "New Delhi": {
+    "hospital": {
+      "name": "Dr. Ram Manohar Lohia Hospital",
+      "address": "Baba Kharak Singh Marg, Connaught Place, New Delhi 110001",
+      "phone": "+91-11-23365525",
+      "latitude": 28.624946,
+      "longitude": 77.200060
+    },
+    "police_station": {
+      "name": "Connaught Place Police Station",
+      "address": "Middle Circle, Connaught Place, New Delhi 110001",
+      "phone": "+91-11-23361234",
+      "latitude": 28.629855,
+      "longitude": 77.214186
+    }
+  },
+  "North Delhi": {
+    "hospital": {
+      "name": "Hindu Rao Hospital",
+      "address": "Malka Ganj, Near New Sabzi Mandi, Delhi 110007",
+      "phone": "+91-11-23905729",
+      "latitude": 28.67538,
+      "longitude": 77.212312
+    },
+    "police_station": {
+      "name": "Model Town Police Station",
+      "address": "Model Town, Delhi 110009",
+      "phone": "+91-11-27667854",
+      "latitude": 28.702884,
+      "longitude": 77.193616
+    }
+  },
+  "North East Delhi": {
+    "hospital": {
+      "name": "Guru Teg Bahadur Hospital",
+      "address": "Dilshad Garden, Shahdara, Delhi 110095",
+      "phone": "+91-11-22586262",
+      "latitude": 28.67538,
+      "longitude": 77.212312
+    },
+    "police_station": {
+      "name": "Seelampur Police Station",
+      "address": "Seelampur, North East Delhi, Delhi 110053",
+      "phone": "+91-11-22810036",
+      "latitude": 28.671594,
+      "longitude": 77.272114
+    }
+  },
+"North West Delhi": {
+    "hospital": {
+      "name": "Babu Jagjivan Ram Memorial Hospital",
+      "address": "Jahangirpuri, North West Delhi, Delhi 110033",
+      "phone": "+91-11-27631839",
+      "latitude": 28.7225,
+      "longitude": 77.1687
+    },
+    "police_station": {
+      "name": "Rohini South Police Station",
+      "address": "Rohini Sector 9, North West Delhi, Delhi 110085",
+      "phone": "+91-11-27943400",
+      "latitude": 28.7121,
+      "longitude": 77.1115
+    }
+  },
+  "Shahdara": {
+    "hospital": {
+      "name": "Guru Teg Bahadur Hospital",
+      "address": "Dilshad Garden, Delhi 110095",
+      "phone": "+91-11-22586262",
+      "latitude": 28.6789,
+      "longitude": 77.2756
+    },
+    "police_station": {
+      "name": "Shahdara Police Station",
+      "address": "Shahdara, East Delhi, Delhi 110032",
+      "phone": "+91-11-22307277",
+      "latitude": 28.6665,
+      "longitude": 77.2702
+    }
+  },
+  "South Delhi": {
+    "hospital": {
+      "name": "Safdarjung Hospital",
+      "address": "Ring Road, Safdarjung, New Delhi 110029",
+      "phone": "+91-11-26161960",
+      "latitude": 28.5750,
+      "longitude": 77.2117
+    },
+    "police_station": {
+      "name": "Malviya Nagar Police Station",
+      "address": "Malviya Nagar, South Delhi, Delhi 110017",
+      "phone": "+91-11-26684912",
+      "latitude": 28.5658,
+      "longitude": 77.2331
+    }
+  },
+  "South East Delhi": {
+    "hospital": {
+      "name": "AIIMS Hospital",
+      "address": "Ansari Nagar, South East Delhi, New Delhi 110029",
+      "phone": "+91-11-26588500",
+      "latitude": 28.5728,
+      "longitude": 77.2267
+    },
+    "police_station": {
+      "name": "New Friends Colony Police Station",
+      "address": "New Friends Colony, South East Delhi, Delhi 110025",
+      "phone": "+91-11-26848100",
+      "latitude": 28.5672,
+      "longitude": 77.2498
+    }
+  },
+  "South West Delhi": {
+    "hospital": {
+      "name": "Deen Dayal Upadhyay Hospital",
+      "address": "Hari Nagar, South West Delhi, Delhi 110064",
+      "phone": "+91-11-25494336",
+      "latitude": 28.6150,
+      "longitude": 77.1000
+    },
+    "police_station": {
+      "name": "Vasant Vihar Police Station",
+      "address": "Vasant Vihar, South West Delhi, Delhi 110057",
+      "phone": "+91-11-26145083",
+      "latitude": 28.5639,
+      "longitude": 77.1710
+    }
+  },
+  "West Delhi": {
+    "hospital": {
+      "name": "Maharaja Agrasen Hospital",
+      "address": "Punjabi Bagh, West Delhi, Delhi 110026",
+      "phone": "+91-11-40777777",
+      "latitude": 28.6613,
+      "longitude": 77.1347
+    },
+    "police_station": {
+      "name": "Punjabi Bagh Police Station",
+      "address": "Club Road, Punjabi Bagh, West Delhi, Delhi 110026",
+      "phone": "+91-11-25278400",
+      "latitude": 28.6579,
+      "longitude": 77.1352
+    }
+  }
+}
