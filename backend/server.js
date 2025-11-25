@@ -6,12 +6,8 @@ const path = require("path");
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-require("dotenv").config({ path: path.resolve(__dirname, ".env") }); // load .env
+require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 
-// Debug: check if MONGO_URI is loaded
-console.log("MONGO_URI =", process.env.MONGO_URI);
-
-// Initialize Express app
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -19,15 +15,16 @@ app.use(cors());
 // ===============================
 // MongoDB Atlas Connection
 // ===============================
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-.then(() => console.log("✅ MongoDB Atlas connected successfully"))
-.catch((err) => console.error("❌ MongoDB connection error:", err));
+mongoose
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("✅ MongoDB Atlas connected successfully"))
+  .catch((err) => console.error("❌ MongoDB connection error:", err));
 
 // ===============================
-// Schema and Model
+// Schema + Model
 // ===============================
 const districtSchema = new mongoose.Schema({
   District: String,
@@ -46,23 +43,14 @@ const districtSchema = new mongoose.Schema({
   Longitude: Number,
 });
 
-// 3rd argument explicitly sets your collection name
 const District = mongoose.model("District", districtSchema, "October_dB");
 
 // ===============================
-// Routes
+// API Routes
 // ===============================
-
-// Root route (test)
-app.get("/", (req, res) => {
-  res.send("UrbanAware API is running ✅");
-});
-
-// Get all district data
 app.get("/api/districts", async (req, res) => {
   try {
     const districts = await District.find({});
-    console.log("📊 Documents fetched:", districts.length);
     res.status(200).json(districts);
   } catch (err) {
     console.error("❌ Error fetching data:", err);
@@ -70,8 +58,28 @@ app.get("/api/districts", async (req, res) => {
   }
 });
 
+// Test route
+app.get("/api", (req, res) => {
+  res.send("UrbanAware API is running ✅");
+});
+
+// ===============================
+// Serve Frontend (React Build)
+// ===============================
+
+// Public folder holds your build folder content
+app.use(express.static(path.join(__dirname, "public")));
+
+// Catch-all: send React index.html for all other routes
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
+
 // ===============================
 // Start Server
 // ===============================
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running at http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.log(`🚀 Server running on port ${PORT}`)
+);
