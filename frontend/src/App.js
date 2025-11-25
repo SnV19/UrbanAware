@@ -65,12 +65,13 @@ function App() {
   const [unitText, setUnitText] = useState(""); // cases/patients
 
   useEffect(() => {
-    // Fetch district data from backend
-    fetch("http://localhost:5000/api/districts")
-      .then((res) => res.json())
-      .then((data) => setDistricts(data))
-      .catch((err) => console.error("Error fetching data:", err));
-  }, []);
+  // Fetch district data from backend
+  fetch("http://localhost:5000/api/districts")
+    .then((res) => res.json())
+    .then((data) => setDistricts(data))
+    .catch((err) => console.error("Error fetching data:", err));
+}, []);
+
 
   useEffect(() => {
     setCategory("");
