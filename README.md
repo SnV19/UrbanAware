@@ -26,58 +26,57 @@ cd urbanaware
 ```
 
 Install backend dependencies:
-
+```bash
 cd backend
 npm install
-
+```
 
 Install frontend dependencies:
 
+```bash
 cd ../frontend
 npm install
+```
 
-##▶ Running the Project
+Running the Project
 
 Start backend (Node server using server.js):
 
+```bash
 cd backend
 node server.js
-
+```
 
 Start frontend (React):
 
+```bash
 cd frontend
 npm start
+```
 
-🔧 Environment Variables (backend/.env)
+ Environment Variables (backend/.env):
+
+```bash 
 MONGO_URI=your_mongodb_atlas_url
 PORT=5000
+```
 
-##📚 Project Structure
-urbanaware/
-│
-├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── assets/
-│
-├── backend/
-│   ├── routes/
-│   ├── models/
-│   ├── server.js
-│   └── .env
-│
-└── README.md
 
-##🛠 Tech Stack
+
+ Tech Stack
 
 React.js
+
 Node.js + Express.js
+
 MongoDB (Mongoose)
+
 Chart.js
+
 Leaflet.js
+
 Pixabay (audio)
+
 Clideo + Canva (videos/images)
 
 📄 License
