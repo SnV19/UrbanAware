@@ -21,7 +21,7 @@ Includes real-time insights, awareness tools, and location-based support using L
 
 Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/SnV19/UrbanAware>
 cd urbanaware
 ```
 
@@ -63,26 +63,22 @@ PORT=5000
 
 
 
- Tech Stack
+ ## 🛠 **Tech Stack**
 
-React.js
+- **React.js** – Frontend UI  
+- **Node.js + Express.js** – Backend server  
+- **MongoDB (Mongoose)** – Database  
+- **Chart.js** – Trend visualizations  
+- **Leaflet.js** – Interactive Delhi map  
+- **Pixabay** – Audio assets  
+- **Clideo + Canva** – Video & image editing tools  
 
-Node.js + Express.js
 
-MongoDB (Mongoose)
+## 📄 **License**
 
-Chart.js
+This project is released under a **Custom Restricted License**.  
+You are allowed to **view** the code, but **copying, modifying, or redistributing** any part of this project **is strictly prohibited** without explicit permission from the author.
 
-Leaflet.js
-
-Pixabay (audio)
-
-Clideo + Canva (videos/images)
-
-📄 License
-
-This project uses a Custom Restricted License.
-Viewing is allowed, but copying or redistributing the code is not permitted without permission.
 
 ## 👤 Author
 
