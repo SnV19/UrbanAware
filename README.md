@@ -38,7 +38,7 @@ cd ../frontend
 npm install
 ```
 
-Running the Project
+## ▶ Running the Project
 
 Start backend (Node server using server.js):
 
@@ -54,7 +54,9 @@ cd frontend
 npm start
 ```
 
- Environment Variables (backend/.env):
+## 🔐 Environment Variables
+backend/.env
+
 
 ```bash 
 MONGO_URI=your_mongodb_atlas_url
@@ -76,10 +78,14 @@ PORT=5000
 
 ## 📄 **License**
 
-This project is released under a **Custom Restricted License**.  
-You are allowed to **view** the code, but **copying, modifying, or redistributing** any part of this project **is strictly prohibited** without explicit permission from the author.
+## 📄 License
+
+This project is for **educational and learning purposes**.
+Please do not copy or redistribute without permission.
 
 
 ## 👤 Author
 
 Developed by **Sneha** for academic and learning purposes.
+This project is currently in progress.
+I’m actively improving features and structure.
