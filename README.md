@@ -77,9 +77,6 @@ PORT=5000
 
 
 ## 📄 **License**
-
-## 📄 License
-
 This project is for **educational and learning purposes**.
 Please do not copy or redistribute without permission.
 
